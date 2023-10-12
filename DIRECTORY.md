@@ -798,6 +798,7 @@
             * [HowManyTimesRotatedTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/searches/HowManyTimesRotatedTest.java)
             * [KMPSearchTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/searches/KMPSearchTest.java)
             * [OrderAgnosticBinarySearchTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/searches/OrderAgnosticBinarySearchTest.java)
+            * [PerfectBinarySearchTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/searches/PerfectBinarySearchTest.java)
             * [QuickSelectTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/searches/QuickSelectTest.java)
             * [RabinKarpAlgorithmTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/searches/RabinKarpAlgorithmTest.java)
             * [RecursiveBinarySearchTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/searches/RecursiveBinarySearchTest.java)
