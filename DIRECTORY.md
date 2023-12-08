@@ -82,6 +82,11 @@
               * [LFUCache](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/datastructures/caches/LFUCache.java)
               * [LRUCache](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/datastructures/caches/LRUCache.java)
               * [MRUCache](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/datastructures/caches/MRUCache.java)
+            * crdt
+              * [GCounter](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/datastructures/crdt/GCounter.java)
+              * [GSet](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/datastructures/crdt/GSet.java)
+              * [PNCounter](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/datastructures/crdt/PNCounter.java)
+              * [TwoPSet](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/datastructures/crdt/TwoPSet.java)
             * disjointsetunion
               * [DisjointSetUnion](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/datastructures/disjointsetunion/DisjointSetUnion.java)
               * [Node](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/datastructures/disjointsetunion/Node.java)
@@ -91,6 +96,7 @@
               * [A Star](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/datastructures/graphs/A_Star.java)
               * [BellmanFord](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/datastructures/graphs/BellmanFord.java)
               * [BipartiteGrapfDFS](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/datastructures/graphs/BipartiteGrapfDFS.java)
+              * [BoruvkaAlgorithm](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/datastructures/graphs/BoruvkaAlgorithm.java)
               * [ConnectedComponent](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/datastructures/graphs/ConnectedComponent.java)
               * [Cycles](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/datastructures/graphs/Cycles.java)
               * [DIJSKSTRAS ALGORITHM](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/datastructures/graphs/DIJSKSTRAS_ALGORITHM.java)
@@ -240,6 +246,7 @@
             * [SubsetCount](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/dynamicprogramming/SubsetCount.java)
             * [SubsetSum](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/dynamicprogramming/SubsetSum.java)
             * [Sum Of Subset](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/dynamicprogramming/Sum_Of_Subset.java)
+            * [Tribonacci](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/dynamicprogramming/Tribonacci.java)
             * [UniquePaths](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/dynamicprogramming/UniquePaths.java)
             * [WildcardMatching](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/dynamicprogramming/WildcardMatching.java)
             * [WineProblem](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/dynamicprogramming/WineProblem.java)
@@ -522,7 +529,7 @@
             * [InfixToPostfix](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/stacks/InfixToPostfix.java)
             * [LargestRectangle](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/stacks/LargestRectangle.java)
             * [MaximumMinimumWindow](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/stacks/MaximumMinimumWindow.java)
-            * [NextGraterElement](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/stacks/NextGraterElement.java)
+            * [NextGreaterElement](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/stacks/NextGreaterElement.java)
             * [NextSmallerElement](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/stacks/NextSmallerElement.java)
             * [PostfixToInfix](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/stacks/PostfixToInfix.java)
             * [StackPostfixNotation](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/stacks/StackPostfixNotation.java)
@@ -611,9 +618,15 @@
               * [LFUCacheTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/datastructures/caches/LFUCacheTest.java)
               * [LRUCacheTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/datastructures/caches/LRUCacheTest.java)
               * [MRUCacheTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/datastructures/caches/MRUCacheTest.java)
+            * crdt
+              * [GCounterTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/datastructures/crdt/GCounterTest.java)
+              * [GSetTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/datastructures/crdt/GSetTest.java)
+              * [PNCounterTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/datastructures/crdt/PNCounterTest.java)
+              * [TwoPSetTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/datastructures/crdt/TwoPSetTest.java)
             * disjointsetunion
               * [DisjointSetUnionTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/datastructures/disjointsetunion/DisjointSetUnionTest.java)
             * graphs
+              * [BoruvkaAlgorithmTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/datastructures/graphs/BoruvkaAlgorithmTest.java)
               * [HamiltonianCycleTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/datastructures/graphs/HamiltonianCycleTest.java)
               * [KosarajuTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/datastructures/graphs/KosarajuTest.java)
               * [TarjansAlgorithmTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/datastructures/graphs/TarjansAlgorithmTest.java)
@@ -672,6 +685,7 @@
             * [OptimalJobSchedulingTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/dynamicprogramming/OptimalJobSchedulingTest.java)
             * [PartitionProblemTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/dynamicprogramming/PartitionProblemTest.java)
             * [SubsetCountTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/dynamicprogramming/SubsetCountTest.java)
+            * [TribonacciTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/dynamicprogramming/TribonacciTest.java)
             * [UniquePathsTests](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/dynamicprogramming/UniquePathsTests.java)
             * [WildcardMatchingTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/dynamicprogramming/WildcardMatchingTest.java)
           * geometry
