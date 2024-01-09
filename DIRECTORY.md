@@ -27,6 +27,7 @@
             * [NonRepeatingNumberFinder](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/bitmanipulation/NonRepeatingNumberFinder.java)
             * [NumbersDifferentSigns](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/bitmanipulation/NumbersDifferentSigns.java)
             * [ReverseBits](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/bitmanipulation/ReverseBits.java)
+            * [SetKthBit](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/bitmanipulation/SetKthBit.java)
             * [SingleBitOperations](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/bitmanipulation/SingleBitOperations.java)
           * ciphers
             * a5
@@ -44,11 +45,11 @@
             * [ColumnarTranspositionCipher](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/ciphers/ColumnarTranspositionCipher.java)
             * [DES](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/ciphers/DES.java)
             * [HillCipher](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/ciphers/HillCipher.java)
+            * [PlayfairCipher](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/ciphers/PlayfairCipher.java)
             * [Polybius](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/ciphers/Polybius.java)
             * [ProductCipher](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/ciphers/ProductCipher.java)
             * [RSA](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/ciphers/RSA.java)
             * [SimpleSubCipher](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/ciphers/SimpleSubCipher.java)
-            * [SimpleSubstitutionCipher](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/ciphers/SimpleSubstitutionCipher.java)
             * [Vigenere](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/ciphers/Vigenere.java)
           * conversions
             * [AnyBaseToAnyBase](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/conversions/AnyBaseToAnyBase.java)
@@ -85,6 +86,8 @@
             * crdt
               * [GCounter](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/datastructures/crdt/GCounter.java)
               * [GSet](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/datastructures/crdt/GSet.java)
+              * [LWWElementSet](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/datastructures/crdt/LWWElementSet.java)
+              * [ORSet](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/datastructures/crdt/ORSet.java)
               * [PNCounter](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/datastructures/crdt/PNCounter.java)
               * [TwoPSet](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/datastructures/crdt/TwoPSet.java)
             * disjointsetunion
@@ -584,6 +587,7 @@
             * [NonRepeatingNumberFinderTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/bitmanipulation/NonRepeatingNumberFinderTest.java)
             * [NumbersDifferentSignsTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/bitmanipulation/NumbersDifferentSignsTest.java)
             * [ReverseBitsTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/bitmanipulation/ReverseBitsTest.java)
+            * [SetKthBitTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/bitmanipulation/SetKthBitTest.java)
             * [SingleBitOperationsTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/bitmanipulation/SingleBitOperationsTest.java)
           * ciphers
             * a5
@@ -591,10 +595,10 @@
             * [BlowfishTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/ciphers/BlowfishTest.java)
             * [CaesarTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/ciphers/CaesarTest.java)
             * [DESTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/ciphers/DESTest.java)
+            * [PlayfairTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/ciphers/PlayfairTest.java)
             * [PolybiusTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/ciphers/PolybiusTest.java)
             * [RSATest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/ciphers/RSATest.java)
             * [SimpleSubCipherTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/ciphers/SimpleSubCipherTest.java)
-            * [SimpleSubstitutionCipherTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/ciphers/SimpleSubstitutionCipherTest.java)
             * [VigenereTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/ciphers/VigenereTest.java)
           * conversions
             * [BinaryToDecimalTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/conversions/BinaryToDecimalTest.java)
@@ -621,6 +625,8 @@
             * crdt
               * [GCounterTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/datastructures/crdt/GCounterTest.java)
               * [GSetTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/datastructures/crdt/GSetTest.java)
+              * [LWWElementSetTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/datastructures/crdt/LWWElementSetTest.java)
+              * [ORSetTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/datastructures/crdt/ORSetTest.java)
               * [PNCounterTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/datastructures/crdt/PNCounterTest.java)
               * [TwoPSetTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/datastructures/crdt/TwoPSetTest.java)
             * disjointsetunion
