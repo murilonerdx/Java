@@ -1,17 +1,25 @@
 package com.thealgorithms.others;
 
-import java.io.*;
-import java.util.*;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Scanner;
 
 /* display the most frequent K words in the file and the times it appear
 in the file – shown in order (ignore case and periods) */
-public class TopKWords {
+public final class TopKWords {
+    private TopKWords() {
+    }
 
     static class CountWords {
 
         private String fileName;
 
-        public CountWords(String fileName) {
+        CountWords(String fileName) {
             this.fileName = fileName;
         }
 

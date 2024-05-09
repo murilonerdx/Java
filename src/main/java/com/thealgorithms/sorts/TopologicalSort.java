@@ -1,6 +1,10 @@
 package com.thealgorithms.sorts;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.LinkedHashMap;
+import java.util.LinkedList;
 
 /**
  * The Topological Sorting algorithm linearly orders a DAG or Directed Acyclic Graph into
@@ -12,7 +16,9 @@ import java.util.*;
  * @author Jonathan Taylor (https://github.com/Jtmonument)
  * Based on Introduction to Algorithms 3rd Edition
  */
-public class TopologicalSort {
+public final class TopologicalSort {
+    private TopologicalSort() {
+    }
 
     /*
      * Enum to represent the colors for the depth first search
@@ -43,7 +49,7 @@ public class TopologicalSort {
          * */
         public final ArrayList<String> next = new ArrayList<>();
 
-        public Vertex(String label) {
+        Vertex(String label) {
             this.label = label;
         }
     }
@@ -69,7 +75,7 @@ public class TopologicalSort {
 
     static class BackEdgeException extends RuntimeException {
 
-        public BackEdgeException(String backEdge) {
+        BackEdgeException(String backEdge) {
             super("This graph contains a cycle. No linear ordering is possible. " + backEdge);
         }
     }

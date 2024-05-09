@@ -1,6 +1,6 @@
 package com.thealgorithms.maths;
 
-import java.util.*;
+import java.util.Scanner;
 
 /**
  * Is a common mathematics concept to find the smallest value number
@@ -9,7 +9,9 @@ import java.util.*;
  * @author LauKinHoong
  */
 
-public class LeastCommonMultiple {
+public final class LeastCommonMultiple {
+    private LeastCommonMultiple() {
+    }
 
     /**
      * Driver Code

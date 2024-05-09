@@ -10,7 +10,9 @@ import java.util.Collections;
  * @author Ioannis Karavitsis
  * @version 1.0
  */
-public class FFT {
+public final class FFT {
+    private FFT() {
+    }
 
     /**
      * This class represents a complex number and has methods for basic
@@ -27,7 +29,7 @@ public class FFT {
         /**
          * Default Constructor. Creates the complex number 0.
          */
-        public Complex() {
+        Complex() {
             real = 0;
             img = 0;
         }
@@ -38,7 +40,7 @@ public class FFT {
          * @param r The real part of the number.
          * @param i The imaginary part of the number.
          */
-        public Complex(double r, double i) {
+        Complex(double r, double i) {
             real = r;
             img = i;
         }

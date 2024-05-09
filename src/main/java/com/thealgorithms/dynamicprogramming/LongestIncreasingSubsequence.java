@@ -5,7 +5,9 @@ import java.util.Scanner;
 /**
  * @author Afrizal Fikri (https://github.com/icalF)
  */
-public class LongestIncreasingSubsequence {
+public final class LongestIncreasingSubsequence {
+    private LongestIncreasingSubsequence() {
+    }
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -97,7 +99,7 @@ public class LongestIncreasingSubsequence {
             return end + 1;
         }
         while (left < right - 1) {
-            int middle = (left + right) / 2;
+            final int middle = (left + right) >>> 1;
             if (t[middle] < key) {
                 left = middle;
             } else {

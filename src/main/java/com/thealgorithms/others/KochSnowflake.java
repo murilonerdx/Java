@@ -1,6 +1,8 @@
 package com.thealgorithms.others;
 
-import java.awt.*;
+import java.awt.BasicStroke;
+import java.awt.Color;
+import java.awt.Graphics2D;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
@@ -22,7 +24,9 @@ import javax.imageio.ImageIO;
  * https://natureofcode.com/book/chapter-8-fractals/
  * #84-the-koch-curve-and-the-arraylist-technique ).
  */
-public class KochSnowflake {
+public final class KochSnowflake {
+    private KochSnowflake() {
+    }
 
     public static void main(String[] args) {
         // Test Iterate-method
@@ -176,7 +180,7 @@ public class KochSnowflake {
 
         double x, y;
 
-        public Vector2(double x, double y) {
+        Vector2(double x, double y) {
             this.x = x;
             this.y = y;
         }

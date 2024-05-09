@@ -12,7 +12,9 @@ import java.util.Queue;
  *
  * @author Unknown
  */
-public class MatrixGraphs {
+public final class MatrixGraphs {
+    private MatrixGraphs() {
+    }
 
     public static void main(String[] args) {
         AdjacencyMatrixGraph graph = new AdjacencyMatrixGraph(10);
@@ -68,7 +70,7 @@ class AdjacencyMatrixGraph {
     /**
      * Constructor
      */
-    public AdjacencyMatrixGraph(int givenNumberOfVertices) {
+    AdjacencyMatrixGraph(int givenNumberOfVertices) {
         this.setNumberOfVertices(givenNumberOfVertices);
         this.setNumberOfEdges(0);
         this.setAdjacency(new int[givenNumberOfVertices][givenNumberOfVertices]);

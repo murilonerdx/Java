@@ -6,9 +6,11 @@ import java.util.Random;
 /**
  * use quick sort algorithm to get kth largest or kth smallest element in given array
  */
-public class FindKthNumber {
+public final class FindKthNumber {
+    private FindKthNumber() {
+    }
 
-    private static final Random random = new Random();
+    private static final Random RANDOM = new Random();
 
     public static void main(String[] args) {
         /* generate an array with random size and random elements */
@@ -29,11 +31,11 @@ public class FindKthNumber {
     }
 
     private static int[] generateArray(int capacity) {
-        int size = random.nextInt(capacity) + 1;
+        int size = RANDOM.nextInt(capacity) + 1;
         int[] array = new int[size];
 
         for (int i = 0; i < size; i++) {
-            array[i] = random.nextInt() % 100;
+            array[i] = RANDOM.nextInt() % 100;
         }
         return array;
     }
