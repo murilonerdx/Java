@@ -109,14 +109,14 @@
     <!-- Checks for Naming Conventions.                  -->
     <!-- See https://checkstyle.org/checks/naming/index.html -->
     <module name="ConstantName"/>
-    <!-- TODO <module name="LocalFinalVariableName"/> -->
-    <!-- TODO <module name="LocalVariableName"/> -->
-    <!-- TODO <module name="MemberName"/> -->
-    <!-- TODO <module name="MethodName"/> -->
+    <module name="LocalFinalVariableName"/>
+    <module name="LocalVariableName"/>
+    <module name="MemberName"/>
+    <module name="MethodName"/>
     <module name="PackageName"/>
-    <!-- TODO <module name="ParameterName"/> -->
-    <!-- TODO <module name="StaticVariableName"/> -->
-    <!-- TODO <module name="TypeName"/> -->
+    <module name="ParameterName"/>
+    <module name="StaticVariableName"/>
+    <module name="TypeName"/>
 
     <!-- Checks for imports                              -->
     <!-- See https://checkstyle.org/checks/imports/index.html -->
@@ -139,7 +139,7 @@
     <module name="MethodParamPad"/>
     <!-- TODO <module name="NoWhitespaceAfter"/> -->
     <module name="NoWhitespaceBefore"/>
-    <!-- TODO <module name="OperatorWrap"/> -->
+    <module name="OperatorWrap"/>
     <!-- TODO <module name="ParenPad"/> -->
     <module name="TypecastParenPad"/>
     <module name="WhitespaceAfter"/>
@@ -161,20 +161,20 @@
     <!-- Checks for common coding problems               -->
     <!-- See https://checkstyle.org/checks/coding/index.html -->
     <module name="EmptyStatement"/>
-    <!-- TODO <module name="EqualsHashCode"/> -->
+    <module name="EqualsHashCode"/>
     <!-- TODO <module name="HiddenField"/> -->
     <module name="IllegalInstantiation"/>
-    <!-- TODO <module name="InnerAssignment"/> -->
+    <module name="InnerAssignment"/>
     <!-- TODO <module name="MagicNumber"/> -->
-    <!-- TODO <module name="MissingSwitchDefault"/> -->
-    <!-- TODO <module name="MultipleVariableDeclarations"/> -->
+    <module name="MissingSwitchDefault"/>
+    <module name="MultipleVariableDeclarations"/>
     <module name="SimplifyBooleanExpression"/>
     <module name="SimplifyBooleanReturn"/>
 
     <!-- Checks for class design                         -->
     <!-- See https://checkstyle.org/checks/design/index.html -->
     <!-- TODO <module name="DesignForExtension"/> -->
-    <!-- TODO <module name="FinalClass"/> -->
+    <module name="FinalClass"/>
     <module name="HideUtilityClassConstructor"/>
     <module name="InterfaceIsType"/>
     <!-- TODO <module name="VisibilityModifier"/> -->

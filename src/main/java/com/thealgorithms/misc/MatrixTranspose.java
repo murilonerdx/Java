@@ -18,8 +18,8 @@ import java.util.Scanner;
  * @version 11.0.9
  * @since 2014-03-31
  */
-public final class matrixTranspose {
-    private matrixTranspose() {
+public final class MatrixTranspose {
+    private MatrixTranspose() {
     }
 
     public static void main(String[] args) {
@@ -31,7 +31,10 @@ public final class matrixTranspose {
          * @return Nothing.
          */
         Scanner sc = new Scanner(System.in);
-        int i, j, row, column;
+        int i;
+        int j;
+        int row;
+        int column;
         System.out.println("Enter the number of rows in the 2D matrix:");
 
         /*

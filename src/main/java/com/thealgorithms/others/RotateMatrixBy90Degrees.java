@@ -6,8 +6,8 @@ package com.thealgorithms.others;
  */
 import java.util.Scanner;
 
-class Rotate_by_90_degrees {
-    private Rotate_by_90_degrees() {
+final class RotateMatrixBy90Degrees {
+    private RotateMatrixBy90Degrees() {
     }
 
     public static void main(String[] args) {
@@ -58,7 +58,8 @@ final class Rotate {
                 }
             }
         }
-        int i = 0, k = n - 1;
+        int i = 0;
+        int k = n - 1;
         while (i < k) {
             for (int j = 0; j < n; j++) {
                 int temp = a[i][j];

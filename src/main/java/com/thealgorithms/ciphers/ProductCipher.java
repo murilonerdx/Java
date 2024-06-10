@@ -26,8 +26,8 @@ final class ProductCipher {
 
             // Transposition encryption
             String transpositionInput = substitutionOutput.toString();
-            int modulus;
-            if ((modulus = transpositionInput.length() % n) != 0) {
+            int modulus = transpositionInput.length() % n;
+            if (modulus != 0) {
                 modulus = n - modulus;
 
                 for (; modulus != 0; modulus--) {
@@ -68,7 +68,6 @@ final class ProductCipher {
 
             System.out.println("Plaintext: ");
             System.out.println(plaintext);
-            sc.close();
         }
     }
 }
