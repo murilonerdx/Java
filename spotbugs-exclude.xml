@@ -66,9 +66,6 @@
         <Bug pattern="MS_EXPOSE_REP" />
     </Match>
     <Match>
-        <Bug pattern="IM_BAD_CHECK_FOR_ODD" />
-    </Match>
-    <Match>
         <Bug pattern="DM_BOXED_PRIMITIVE_FOR_PARSING" />
     </Match>
     <Match>
@@ -224,9 +221,6 @@
     </Match>
     <Match>
         <Bug pattern="IMC_IMMATURE_CLASS_BAD_SERIALVERSIONUID" />
-    </Match>
-    <Match>
-        <Bug pattern="SUI_CONTAINS_BEFORE_ADD" />
     </Match>
     <Match>
         <Bug pattern="DRE_DECLARED_RUNTIME_EXCEPTION" />
