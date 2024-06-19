@@ -830,6 +830,7 @@
             * [NextFitTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/others/NextFitTest.java)
             * [PasswordGenTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/others/PasswordGenTest.java)
             * [SieveOfEratosthenesTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/others/SieveOfEratosthenesTest.java)
+            * [StringMatchFiniteAutomataTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/others/StringMatchFiniteAutomataTest.java)
             * [TestPrintMatrixInSpiralOrder](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/others/TestPrintMatrixInSpiralOrder.java)
             * [TwoPointersTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/others/TwoPointersTest.java)
             * [WorstFitCPUTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/others/WorstFitCPUTest.java)
