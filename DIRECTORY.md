@@ -488,6 +488,7 @@
             * [MirrorOfMatrix](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/matrix/MirrorOfMatrix.java)
             * [PrintAMatrixInSpiralOrder](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/matrix/PrintAMatrixInSpiralOrder.java)
             * [RotateMatrixBy90Degrees](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/matrix/RotateMatrixBy90Degrees.java)
+            * [SolveSystem](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/matrix/SolveSystem.java)
             * utils
               * [MatrixUtil](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/matrix/utils/MatrixUtil.java)
           * misc
@@ -1159,6 +1160,7 @@
             * [MatrixUtilTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/matrix/MatrixUtilTest.java)
             * [MedianOfMatrixTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/matrix/MedianOfMatrixTest.java)
             * [MirrorOfMatrixTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/matrix/MirrorOfMatrixTest.java)
+            * [SolveSystemTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/matrix/SolveSystemTest.java)
             * [TestPrintMatrixInSpiralOrder](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/matrix/TestPrintMatrixInSpiralOrder.java)
           * misc
             * [ColorContrastRatioTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/misc/ColorContrastRatioTest.java)
