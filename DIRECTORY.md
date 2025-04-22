@@ -204,6 +204,7 @@
               * [RotateSinglyLinkedLists](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/datastructures/lists/RotateSinglyLinkedLists.java)
               * [SearchSinglyLinkedListRecursion](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/datastructures/lists/SearchSinglyLinkedListRecursion.java)
               * [SinglyLinkedList](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/datastructures/lists/SinglyLinkedList.java)
+              * [SinglyLinkedListNode](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/datastructures/lists/SinglyLinkedListNode.java)
               * [SkipList](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/datastructures/lists/SkipList.java)
               * [SortedLinkedList](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/datastructures/lists/SortedLinkedList.java)
             * [Node](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/datastructures/Node.java)
@@ -302,6 +303,7 @@
             * [LongestArithmeticSubsequence](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/dynamicprogramming/LongestArithmeticSubsequence.java)
             * [LongestCommonSubsequence](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/dynamicprogramming/LongestCommonSubsequence.java)
             * [LongestIncreasingSubsequence](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/dynamicprogramming/LongestIncreasingSubsequence.java)
+            * [LongestIncreasingSubsequenceNLogN](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/dynamicprogramming/LongestIncreasingSubsequenceNLogN.java)
             * [LongestPalindromicSubsequence](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/dynamicprogramming/LongestPalindromicSubsequence.java)
             * [LongestPalindromicSubstring](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/dynamicprogramming/LongestPalindromicSubstring.java)
             * [LongestValidParentheses](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/dynamicprogramming/LongestValidParentheses.java)
@@ -337,6 +339,7 @@
           * graph
             * [ConstrainedShortestPath](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/graph/ConstrainedShortestPath.java)
             * [StronglyConnectedComponentOptimized](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/graph/StronglyConnectedComponentOptimized.java)
+            * [TravelingSalesman](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/graph/TravelingSalesman.java)
           * greedyalgorithms
             * [ActivitySelection](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/greedyalgorithms/ActivitySelection.java)
             * [BandwidthAllocation](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/greedyalgorithms/BandwidthAllocation.java)
@@ -553,6 +556,8 @@
             * [Sudoku](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/puzzlesandgames/Sudoku.java)
             * [TowerOfHanoi](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/puzzlesandgames/TowerOfHanoi.java)
             * [WordBoggle](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/puzzlesandgames/WordBoggle.java)
+          * randomized
+            * [ReservoirSampling](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/randomized/ReservoirSampling.java)
           * recursion
             * [FibonacciSeries](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/recursion/FibonacciSeries.java)
             * [GenerateSubsets](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/recursion/GenerateSubsets.java)
@@ -991,6 +996,7 @@
             * [LongestAlternatingSubsequenceTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/dynamicprogramming/LongestAlternatingSubsequenceTest.java)
             * [LongestArithmeticSubsequenceTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/dynamicprogramming/LongestArithmeticSubsequenceTest.java)
             * [LongestCommonSubsequenceTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/dynamicprogramming/LongestCommonSubsequenceTest.java)
+            * [LongestIncreasingSubsequenceNLogNTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/dynamicprogramming/LongestIncreasingSubsequenceNLogNTest.java)
             * [LongestIncreasingSubsequenceTests](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/dynamicprogramming/LongestIncreasingSubsequenceTests.java)
             * [LongestPalindromicSubstringTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/dynamicprogramming/LongestPalindromicSubstringTest.java)
             * [LongestValidParenthesesTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/dynamicprogramming/LongestValidParenthesesTest.java)
@@ -1025,6 +1031,7 @@
           * graph
             * [ConstrainedShortestPathTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/graph/ConstrainedShortestPathTest.java)
             * [StronglyConnectedComponentOptimizedTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/graph/StronglyConnectedComponentOptimizedTest.java)
+            * [TravelingSalesmanTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/graph/TravelingSalesmanTest.java)
           * greedyalgorithms
             * [ActivitySelectionTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/greedyalgorithms/ActivitySelectionTest.java)
             * [BandwidthAllocationTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/greedyalgorithms/BandwidthAllocationTest.java)
@@ -1207,6 +1214,8 @@
             * [SudokuTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/puzzlesandgames/SudokuTest.java)
             * [TowerOfHanoiTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/puzzlesandgames/TowerOfHanoiTest.java)
             * [WordBoggleTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/puzzlesandgames/WordBoggleTest.java)
+          * randomized
+            * [ReservoirSamplingTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/randomized/ReservoirSamplingTest.java)
           * recursion
             * [FibonacciSeriesTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/recursion/FibonacciSeriesTest.java)
             * [GenerateSubsetsTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/recursion/GenerateSubsetsTest.java)
